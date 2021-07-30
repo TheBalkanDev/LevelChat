@@ -3,17 +3,13 @@
 namespace iJoshuaHD;
 
 use pocketmine\event\Listener;
-
 use pocketmine\event\player\PlayerChatEvent;
-
 use pocketmine\Player;
-
 use pocketmine\plugin\PluginBase;
-
 use pocketmine\Server;
 
 
-class LevelChat extends PluginBase implements Listener{
+class Main extends PluginBase implements Listener{
 
 	public function onEnable(){
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);

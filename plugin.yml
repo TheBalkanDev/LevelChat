@@ -1,8 +1,6 @@
 name: LevelChat
 main: iJoshuaHD\LevelChat
 version: 0.0.1
-api: [1.9.0]
-load: STARTUP
+api: 3.0.0
 author: iJoshuaHD
 description: A more dynamic manifold level chat.
-website: https://github.com/LevelChat

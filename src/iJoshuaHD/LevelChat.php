@@ -9,7 +9,7 @@ use pocketmine\plugin\PluginBase;
 use pocketmine\Server;
 
 
-class Main extends PluginBase implements Listener{
+class LevelChat extends PluginBase implements Listener{
 
 	public function onEnable(){
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);

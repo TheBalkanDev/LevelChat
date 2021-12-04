@@ -13,11 +13,11 @@ class LevelChat extends PluginBase implements Listener{
 
 	public function onEnable(){
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
-		$this->getLogger()->info("LevelChat Enabled!");
+		$this->getLogger()->info("[Level Chat] Enabled!");
     }
 
 	public function onDisable(){
-		$this->getLogger()->info("LevelChat Disabled!");
+		$this->getLogger()->info("[Level Chat] Disabled!");
     }
 
 	public function onPlayerChat(PlayerChatEvent $ev){

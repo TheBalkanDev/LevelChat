@@ -8,12 +8,10 @@ use pocketmine\Player;
 use pocketmine\plugin\PluginBase;
 use pocketmine\Server;
 
-
 class LevelChat extends PluginBase implements Listener{
 
 	public function onLoad() : void{
-		
-		$this->getLogger()->info(TextFormat::WHITE . "LevelChat - activated!");
+	$this->getLogger()->info(TextFormat::WHITE . "LevelChat - activated!");
 
 	public function onEnable() {
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
